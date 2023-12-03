@@ -1,0 +1,19 @@
+<libraries>
+  <library
+      name="/Users/jamesbunt/Desktop/Unity-AR-App/AR-Project/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
+      jars="/Users/jamesbunt/Desktop/Unity-AR-App/AR-Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/e31f7fae366ecc5ff44baf9e294bc9f6/transformed/out/jars/classes.jar:/Users/jamesbunt/Desktop/Unity-AR-App/AR-Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/e31f7fae366ecc5ff44baf9e294bc9f6/transformed/out/jars/libs/unity-classes.jar"
+      resolved="Gradle:unityLibrary:unspecified"
+      folder="/Users/jamesbunt/Desktop/Unity-AR-App/AR-Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/e31f7fae366ecc5ff44baf9e294bc9f6/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="__local_aars__:/Users/jamesbunt/Desktop/Unity-AR-App/AR-Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"
+      jars="/Users/jamesbunt/Desktop/Unity-AR-App/AR-Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar"
+      resolved="__local_aars__:/Users/jamesbunt/Desktop/Unity-AR-App/AR-Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified"/>
+</libraries>
