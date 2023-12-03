@@ -344,3 +344,332 @@ Received Import Request.
 Start importing Assets/Scripts/Better Test.cs using Guid(54b0ec5070a0b4546bc1301226086357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce00e19d99ed30e50a7a24b618a77a12') in 0.001155 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17ab87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.634 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.209 seconds
+Domain Reload Profiling: 4844ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (455ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (4210ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (264ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 4.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3557.
+Memory consumption went from 150.1 MB to 150.0 MB.
+Total: 2.333125 ms (FindLiveObjects: 0.109291 ms CreateObjectMapping: 0.036500 ms MarkObjects: 2.144167 ms  DeleteObjects: 0.042292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17a54f000 may have been prematurely finalized
+- Loaded All Assemblies, in  1.149 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.859 seconds
+Domain Reload Profiling: 7008ms
+	BeginReloadAssembly (301ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (800ms)
+		LoadAssemblies (1020ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (5859ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (277ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Script is not up to date after domain reload: guid(e548646b37ef29e478de7ebcfd7db81a) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Windows/x64/UnityDriver.dll") state(2)
+Script is not up to date after domain reload: guid(7983afece5f18429bbd296ee5cac4065) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/UnityDriver.framework") state(2)
+Script is not up to date after domain reload: guid(6e86519b2ed7ece4cae901fc31de93cd) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Android/VuforiaEngine.aar") state(2)
+Script is not up to date after domain reload: guid(886328de6a5c14cbb85854fdf1a5085b) path("Packages/com.ptc.vuforia.engine/Vuforia/Scripts/DefaultObserverEventHandler.cs") state(2)
+Script is not up to date after domain reload: guid(b1fc409a6e3d749ab8f4199fe443ae2d) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/OSXUniversal/universal/libVuforiaUnityPlayer.dylib") state(2)
+Script is not up to date after domain reload: guid(1e108ae5f2133934f948edded555f03e) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/UWP/Vuforia.Unity.Engine.dll") state(2)
+Script is not up to date after domain reload: guid(9475430cd08484be5b0390a6b20be297) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll") state(2)
+Script is not up to date after domain reload: guid(02018e9fe9c834e7ab5f9b08e5b63a9c) path("Packages/com.ptc.vuforia.engine/Vuforia/Scripts/Internal/ARFoundationIntegration/ARFoundationFacade.cs") state(2)
+Script is not up to date after domain reload: guid(af19d4b80f4fc4950b99eb9ea78ab6ef) path("Packages/com.ptc.vuforia.engine/Vuforia/Scripts/DefaultAreaTargetEventHandler.cs") state(2)
+Script is not up to date after domain reload: guid(a4f4f48aa607749f4b9e83ba61aeb331) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Windows/x64/FileDriver.dll") state(2)
+Script is not up to date after domain reload: guid(06a6d43752a6a6440822e730bd68070c) path("Packages/com.ptc.vuforia.engine/Vuforia/Editor/Scripts/OpenSourceInitializer.cs") state(2)
+Script is not up to date after domain reload: guid(8a9a760f95896c34689febc965510927) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll") state(2)
+Script is not up to date after domain reload: guid(2540246fb3ca1c34a9358b891acb61f5) path("Packages/com.ptc.vuforia.engine/Vuforia/Scripts/Internal/RuntimeOpenSourceInitializer.cs") state(2)
+Script is not up to date after domain reload: guid(e4bfeabebc5114952a57d908ff706b7e) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/OSXUniversal/universal/libVuforiaEngine.dylib") state(2)
+Script is not up to date after domain reload: guid(2fc49efc2c9ab4f6394f99afa0bcd947) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/OSXUniversal/universal/libFileDriver.dylib") state(2)
+Script is not up to date after domain reload: guid(ca83b7682aa65435a846edf4bd22483d) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/UWP/Vuforia.Unity.Wrapper.dll") state(2)
+Script is not up to date after domain reload: guid(c47f92041efbb4b429a4eafca855ebe3) path("Packages/com.ptc.vuforia.engine/Vuforia/Scripts/DefaultInitializationErrorHandler.cs") state(2)
+Script is not up to date after domain reload: guid(19e5a138c07e971438b2b18c8e716479) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/UWP/x64/VuforiaEngine.dll") state(2)
+Script is not up to date after domain reload: guid(69c1fb82e4171426ea728835ae1495f8) path("Packages/com.ptc.vuforia.engine/Tests/Editor/PackageDetailsTests.cs") state(2)
+Script is not up to date after domain reload: guid(2f02b8764d7e3d0478249c300d6b8b6f) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/Editor/Vuforia.Unity.Editor.dll") state(2)
+Script is not up to date after domain reload: guid(d2170503dc57f492481ebe9334c68fcc) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/VuforiaEngine.framework") state(2)
+Script is not up to date after domain reload: guid(d3be61054796142fe9129793183d1cce) path("Packages/com.ptc.vuforia.engine/Vuforia/Scripts/BarcodeOutlineBehaviour.cs") state(2)
+Script is not up to date after domain reload: guid(b90950afb18b9f54fbf01f6b92166f63) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/UWP/ARM64/VuforiaEngine.dll") state(2)
+Script is not up to date after domain reload: guid(af7590ff70afb478d899f335c125c3e9) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/OSXUniversal/universal/libUnityDriver.dylib") state(2)
+Script is not up to date after domain reload: guid(bab6fa851cf5a1a4bba3cec5f191cb8e) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/iOS/Vuforia.Unity.Engine.dll") state(2)
+Script is not up to date after domain reload: guid(b0768a105a9bd48409a689214808185f) path("Packages/com.ptc.vuforia.engine/Vuforia/Scripts/BoundingBoxRenderer.cs") state(2)
+Script is not up to date after domain reload: guid(6a6b6bef66b30cf4da56a85e98aa9524) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/Android/Vuforia.Unity.Engine.dll") state(2)
+Script is not up to date after domain reload: guid(eabf805d3d86f472f941474aa48d16a9) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/Android/Vuforia.Unity.Wrapper.dll") state(2)
+Script is not up to date after domain reload: guid(67354e3e18c2e46239528afe5866322b) path("Packages/com.ptc.vuforia.engine/Vuforia/Editor/Scripts/DefaultObserverEventHandlerEditor.cs") state(2)
+Script is not up to date after domain reload: guid(3fd01f98ebbeb44048268df52f9b2cd4) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Managed/iOS/Vuforia.Unity.Wrapper.dll") state(2)
+Script is not up to date after domain reload: guid(f735d317ca9afb6468c5c5ca06d9e39a) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/Windows/x64/VuforiaEngine.dll") state(2)
+Script is not up to date after domain reload: guid(27ca21468eb6b4358b575e6e26b64600) path("Packages/com.ptc.vuforia.engine/Vuforia/Plugins/iOS/VuforiaShare.mm") state(2)
+Refreshing native plugins compatible for Editor in 6.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3561.
+Memory consumption went from 157.4 MB to 157.4 MB.
+Total: 2.636833 ms (FindLiveObjects: 0.119917 ms CreateObjectMapping: 0.037417 ms MarkObjects: 2.421916 ms  DeleteObjects: 0.057208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17a5db000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.479 seconds
+Refreshing native plugins compatible for Editor in 3.39 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 1398ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (61ms)
+			TypeCache.Refresh (52ms)
+				TypeCache.ScanAssembly (42ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (920ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (222ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Shader 'Custom/PointCloudHeightClip': fallback shader 'PointClouds/PointSplatNoGeom' not found
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Vuforia/Built-In/PointCloudHeightClip': fallback shader 'Vuforia/Built-In/PointSplatNoGeom' not found
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuforia/Built-In/PointCloudHeightClip' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatNoGeom' not found
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'PointClouds/PointSplat' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 8.78 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 11.62 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (2.8 MB). Loaded Objects now: 3898.
+Memory consumption went from 176.5 MB to 173.8 MB.
+Total: 3.002500 ms (FindLiveObjects: 0.128750 ms CreateObjectMapping: 0.043167 ms MarkObjects: 1.967666 ms  DeleteObjects: 0.862417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x170457000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.523 seconds
+Refreshing native plugins compatible for Editor in 17.35 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.050 seconds
+Domain Reload Profiling: 5574ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (5050ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (296ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (79ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 11.56 ms, found 6 plugins.
+Preloading 4 native plugins for Editor in 6.28 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (2.8 MB). Loaded Objects now: 3901.
+Memory consumption went from 183.6 MB to 180.9 MB.
+Total: 3.636334 ms (FindLiveObjects: 0.146584 ms CreateObjectMapping: 0.044291 ms MarkObjects: 2.448417 ms  DeleteObjects: 0.996334 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
